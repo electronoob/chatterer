@@ -9,7 +9,7 @@ void main() {
 				print(socket);
 				socket.listen(onData);
 				socket.writeln("NOTICE AUTH :*** something something lol lol");
-				socket.writeln(":Singapore.SG.AS.Undernet.Org 001 user_ :welcome to irc, user_");
+				socket.writeln(":some.server.local 001 user_ :welcome to irc, user_");
 			});
 		});
 }
